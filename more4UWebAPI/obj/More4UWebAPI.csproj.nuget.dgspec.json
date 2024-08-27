@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\more4UWebAPI\\More4UWebAPI.csproj": {}
+    "D:\\projects\\CMX_More4u_Web\\more4UWebAPI\\More4UWebAPI.csproj": {}
   },
   "projects": {
-    "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\Data.Repository\\Data.Repository.csproj": {
+    "D:\\projects\\CMX_More4u_Web\\Data.Repository\\Data.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\Data.Repository\\Data.Repository.csproj",
+        "projectUniqueName": "D:\\projects\\CMX_More4u_Web\\Data.Repository\\Data.Repository.csproj",
         "projectName": "Data.Repository",
-        "projectPath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\Data.Repository\\Data.Repository.csproj",
+        "projectPath": "D:\\projects\\CMX_More4u_Web\\Data.Repository\\Data.Repository.csproj",
         "packagesPath": "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\Data.Repository\\obj\\",
+        "outputPath": "D:\\projects\\CMX_More4u_Web\\Data.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\E-LMMOUSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\more4UWebAPI\\More4UWebAPI.csproj": {
+    "D:\\projects\\CMX_More4u_Web\\more4UWebAPI\\More4UWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\more4UWebAPI\\More4UWebAPI.csproj",
+        "projectUniqueName": "D:\\projects\\CMX_More4u_Web\\more4UWebAPI\\More4UWebAPI.csproj",
         "projectName": "More4UWebAPI",
-        "projectPath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\more4UWebAPI\\More4UWebAPI.csproj",
+        "projectPath": "D:\\projects\\CMX_More4u_Web\\more4UWebAPI\\More4UWebAPI.csproj",
         "packagesPath": "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\more4UWebAPI\\obj\\",
+        "outputPath": "D:\\projects\\CMX_More4u_Web\\more4UWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\E-LMMOUSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,11 +93,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForYou.Services\\MoreForYou.Services.csproj": {
-                "projectPath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForYou.Services\\MoreForYou.Services.csproj"
+              "D:\\projects\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj": {
+                "projectPath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj"
               },
-              "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\Repository.EntityFramework\\Repository.EntityFramework.csproj": {
-                "projectPath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\Repository.EntityFramework\\Repository.EntityFramework.csproj"
+              "D:\\projects\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj": {
+                "projectPath": "D:\\projects\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj"
               }
             }
           }
@@ -172,14 +172,14 @@
         }
       }
     },
-    "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForYou.Models\\MoreForYou.Models.csproj": {
+    "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForYou.Models\\MoreForYou.Models.csproj",
+        "projectUniqueName": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj",
         "projectName": "MoreForYou.Models",
-        "projectPath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForYou.Models\\MoreForYou.Models.csproj",
+        "projectPath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj",
         "packagesPath": "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForYou.Models\\obj\\",
+        "outputPath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\E-LMMOUSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -241,14 +241,14 @@
         }
       }
     },
-    "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForYou.Services\\MoreForYou.Services.csproj": {
+    "D:\\projects\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForYou.Services\\MoreForYou.Services.csproj",
+        "projectUniqueName": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj",
         "projectName": "MoreForYou.Services",
-        "projectPath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForYou.Services\\MoreForYou.Services.csproj",
+        "projectPath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj",
         "packagesPath": "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForYou.Services\\obj\\",
+        "outputPath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\E-LMMOUSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -265,11 +265,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\Data.Repository\\Data.Repository.csproj": {
-                "projectPath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\Data.Repository\\Data.Repository.csproj"
+              "D:\\projects\\CMX_More4u_Web\\Data.Repository\\Data.Repository.csproj": {
+                "projectPath": "D:\\projects\\CMX_More4u_Web\\Data.Repository\\Data.Repository.csproj"
               },
-              "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForYou.Models\\MoreForYou.Models.csproj": {
-                "projectPath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForYou.Models\\MoreForYou.Models.csproj"
+              "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj": {
+                "projectPath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj"
               }
             }
           }
@@ -341,14 +341,14 @@
         }
       }
     },
-    "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\Repository.EntityFramework\\Repository.EntityFramework.csproj": {
+    "D:\\projects\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\Repository.EntityFramework\\Repository.EntityFramework.csproj",
+        "projectUniqueName": "D:\\projects\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj",
         "projectName": "Repository.EntityFramework",
-        "projectPath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\Repository.EntityFramework\\Repository.EntityFramework.csproj",
+        "projectPath": "D:\\projects\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj",
         "packagesPath": "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\Repository.EntityFramework\\obj\\",
+        "outputPath": "D:\\projects\\CMX_More4u_Web\\Repository.EntityFramework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\E-LMMOUSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -365,8 +365,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForYou.Models\\MoreForYou.Models.csproj": {
-                "projectPath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForYou.Models\\MoreForYou.Models.csproj"
+              "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj": {
+                "projectPath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj"
               }
             }
           }

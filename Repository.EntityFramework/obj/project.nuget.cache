@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dl5pYd4EwVKOPEqo7sLPTsjMys0sPfzXTEo92JU2Ssszs2R6CPLKhGznnB2p2wUy39xmLo5DLAbGCXunAR922g==",
+  "dgSpecHash": "SHZCZEjYDfXBIYbWaJY7tlgKlPa/3+DZz9+yQ+zw+2Rs8Hx5+kk5NFcxQeRDTp6Jt+A1YS5KMy6rf8+68W/6Tw==",
   "success": true,
-  "projectFilePath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\Repository.EntityFramework\\Repository.EntityFramework.csproj",
+  "projectFilePath": "D:\\projects\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\azure.identity\\1.10.1\\azure.identity.1.10.1.nupkg.sha512",

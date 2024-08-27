@@ -9612,11 +9612,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForeYou\\MoreForYou.csproj",
+      "projectUniqueName": "D:\\projects\\CMX_More4u_Web\\MoreForeYou\\MoreForYou.csproj",
       "projectName": "MoreForYou",
-      "projectPath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForeYou\\MoreForYou.csproj",
+      "projectPath": "D:\\projects\\CMX_More4u_Web\\MoreForeYou\\MoreForYou.csproj",
       "packagesPath": "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\",
-      "outputPath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForeYou\\obj\\",
+      "outputPath": "D:\\projects\\CMX_More4u_Web\\MoreForeYou\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\E-LMMOUSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9633,11 +9633,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForYou.Services\\MoreForYou.Services.csproj": {
-              "projectPath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForYou.Services\\MoreForYou.Services.csproj"
+            "D:\\projects\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj": {
+              "projectPath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj"
             },
-            "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\Repository.EntityFramework\\Repository.EntityFramework.csproj": {
-              "projectPath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\Repository.EntityFramework\\Repository.EntityFramework.csproj"
+            "D:\\projects\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj": {
+              "projectPath": "D:\\projects\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj"
             }
           }
         }

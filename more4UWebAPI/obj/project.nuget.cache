@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GbGMWgVeko1vvjlUwiXp/XKGchDgf1lT8I1Ia2OQ2BwFgEyRr+yQzboF9XmPVrtwt+mBkD17opRDhYGZN9WDzw==",
+  "dgSpecHash": "4nC4YDurSPiN41ofb2hHL0HkXHLAc2OPY+F4O78lJGGRSMbis0X/WgdTaKFuEAxK9qe2CCHESPBeHq+GoHfcbg==",
   "success": true,
-  "projectFilePath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\more4UWebAPI\\More4UWebAPI.csproj",
+  "projectFilePath": "D:\\projects\\CMX_More4u_Web\\more4UWebAPI\\More4UWebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

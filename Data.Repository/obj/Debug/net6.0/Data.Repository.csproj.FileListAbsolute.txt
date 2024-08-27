@@ -22,3 +22,15 @@ D:\projects\CMX_WEB_More4u\CMX_Web_More4u\Data.Repository\obj\Debug\net6.0\Data.
 D:\projects\CMX_WEB_More4u\CMX_Web_More4u\Data.Repository\obj\Debug\net6.0\refint\Data.Repository.dll
 D:\projects\CMX_WEB_More4u\CMX_Web_More4u\Data.Repository\obj\Debug\net6.0\Data.Repository.pdb
 D:\projects\CMX_WEB_More4u\CMX_Web_More4u\Data.Repository\obj\Debug\net6.0\ref\Data.Repository.dll
+D:\projects\CMX_More4u_Web\Data.Repository\bin\Debug\net6.0\Data.Repository.deps.json
+D:\projects\CMX_More4u_Web\Data.Repository\bin\Debug\net6.0\Data.Repository.dll
+D:\projects\CMX_More4u_Web\Data.Repository\bin\Debug\net6.0\Data.Repository.pdb
+D:\projects\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\Data.Repository.csproj.AssemblyReference.cache
+D:\projects\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\Data.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\Data.Repository.AssemblyInfoInputs.cache
+D:\projects\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\Data.Repository.AssemblyInfo.cs
+D:\projects\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\Data.Repository.csproj.CoreCompileInputs.cache
+D:\projects\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\Data.Repository.dll
+D:\projects\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\refint\Data.Repository.dll
+D:\projects\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\Data.Repository.pdb
+D:\projects\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\ref\Data.Repository.dll

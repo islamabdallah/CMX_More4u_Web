@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Repository.EntityFramework
-build_property.ProjectDir = D:\projects\CMX_WEB_More4u\CMX_Web_More4u\Repository.EntityFramework\
+build_property.ProjectDir = D:\projects\CMX_More4u_Web\Repository.EntityFramework\

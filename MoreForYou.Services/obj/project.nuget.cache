@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zIo/axRMDc2zovzsczgwd9SxdQy5KjvP0xt8zxhV2AvFKHUJFM54myMy2pi9BfLg5o3sd6VFSfnSOJMLZ4ut4w==",
+  "dgSpecHash": "33wXmnTQTOyCm8Mgdob01zZIRFq8tgUyaMaEskdTtOha5vs9OC6pDJEsHUSloigvf65YGp7fIoq+DoS/Kiw9bw==",
   "success": true,
-  "projectFilePath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForYou.Services\\MoreForYou.Services.csproj",
+  "projectFilePath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

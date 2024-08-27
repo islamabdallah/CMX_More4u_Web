@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JmXTxEHI0wXoh3leI/XKaT4h60alXBN+X+mUpXS+t4OU1R8d0Zc/8EcKb2/RuzaTrMOrisK7piiYJTFSKHToWA==",
+  "dgSpecHash": "1GD6ePyQ5+5xbVJYUVYY0owFRD+jVCW+UHvPw44WtAxsM+kTXluocBzYvf18FSOaPXNmzkqVDQQBiuWXOusp3w==",
   "success": true,
-  "projectFilePath": "D:\\projects\\CMX_WEB_More4u\\CMX_Web_More4u\\MoreForYou.Models\\MoreForYou.Models.csproj",
+  "projectFilePath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\azure.identity\\1.10.1\\azure.identity.1.10.1.nupkg.sha512",
