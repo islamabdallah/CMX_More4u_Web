@@ -10,6 +10,7 @@ namespace MoreForYou.Services.Contracts
 {
     public interface IBenefitRequestService
     {
+        Task<List<BenefitRequestModel>> GetAllBenefitRequestsByCountry(string country);
         Task<List<BenefitRequestModel>> GetAllBenefitRequests();
         Task<BenefitRequestModel> CreateBenefitRequest(BenefitRequestModel model);
         Task<bool> UpdateBenefitRequest(BenefitRequestModel model);
@@ -17,8 +18,15 @@ namespace MoreForYou.Services.Contracts
         BenefitRequestModel GetBenefitRequest(long id);
         public Task<List<BenefitRequestModel>> GetBenefitRequestByEmployeeId(long employeeNumber);
         Task<List<BenefitRequestModel>> GetBenefitRequestByBenefitId(long benefitId);
-        bool CancelBenefitRequest(BenefitRequestModel benefitRequestModel, RequestWokflowModel requestWokflowModel);
-        public Task<List<BenefitRequestModel>> GetBenefitRequestByEmployeeId(long employeeNumber, long benefitId);
+       
+        bool CancelBenefitRequest(
+            BenefitRequestModel benefitRequestModel, 
+            RequestWokflowModel requestWokflowModel);
+
+        public Task<List<BenefitRequestModel>> GetBenefitRequestByEmployeeId(
+            long employeeNumber, 
+            long benefitId);
+
         BenefitRequestModel GetBenefitRequestByGroupId(long groupId);
         int GetTimesEmployeeReceieveThisBenefit(long employeeNumber, long benefitId);
         Request CreateRequestAPIModel(BenefitRequestModel benefitRequestModel);

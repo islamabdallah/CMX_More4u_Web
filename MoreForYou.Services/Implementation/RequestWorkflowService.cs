@@ -1165,11 +1165,20 @@ namespace MoreForYou.Services.Implementation
                         }
                         else if (roleName == "HR")
                         {
-                            //EmployeeModel HR = _EmployeeService.GetEmployee((long)benefitRequestModel.Employee.HRId);
-                            // List<AspNetUser> aspNetUsers = _userManager.GetUsersInRoleAsync("RoleId").Result;
-                            //DepartmentModel departmentModel = _departmentService.GetDepartmentByName("HR");
-                            //whoIsConcern = _EmployeeService.GetDepartmentManager(departmentModel.Id);
                             bool result = SendRequestToHRRole(benefitRequestModel);
+                            if (result == true)
+                            {
+                                return "successful Process, your request will be proceed";
+                            }
+                            else
+                            {
+                                return "Problem in HR workflow";
+                            }
+
+                        }
+                        else if (roleName == "Timing")
+                        {
+                            bool result = SendRequestToTimingRole(benefitRequestModel);
                             if (result == true)
                             {
                                 return "successful Process, your request will be proceed";
@@ -2074,6 +2083,80 @@ namespace MoreForYou.Services.Implementation
                 }
             }
             catch (Exception e)
+            {
+                return false;
+            }
+        }
+
+        public bool SendRequestToTimingRole(BenefitRequestModel benefitRequestModel)
+        {
+            try
+            {
+                EmployeeModel result1 = _EmployeeService.GetEmployee(benefitRequestModel.EmployeeId).Result;
+                List<AspNetUser> list = _userManager.GetUsersInRoleAsync("Timing").Result.ToList<AspNetUser>();
+                RoleModel result2 = _roleService.GetRoleByName("Timing").Result;
+                RequestWokflowModel requestWokflowModel = new RequestWokflowModel();
+                foreach (IdentityUser<string> identityUser in list)
+                {
+                    EmployeeModel result3 = _EmployeeService.GetEmployeeByUserId(identityUser.Id).Result;
+                    requestWokflowModel =  CreateRequestWorkflow(new RequestWokflowModel()
+                    {
+                        EmployeeId = result3.EmployeeNumber,
+                        BenefitRequestId = benefitRequestModel.Id,
+                        RoleId = result2.Id,
+                        RequestStatusId = 1,
+                        CreatedDate = DateTime.Today,
+                        UpdatedDate = DateTime.Today,
+                        IsDelted = false,
+                        IsVisible = true
+                    }).Result;
+                    benefitRequestModel = _benefitRequestService.GetBenefitRequest(benefitRequestModel.Id);
+                    if (requestWokflowModel != null)
+                    {
+                        requestWokflowModel = this.GetRequestWorkflowByEmployeeNumber(requestWokflowModel.EmployeeId, requestWokflowModel.BenefitRequestId);
+                        this.SendMailToWhoIsConcern(benefitRequestModel, requestWokflowModel);
+                        int num = this.SendNotification(benefitRequestModel, requestWokflowModel, "Request", 0L).Result ? 1 : 0;
+                    }
+                }
+                if (benefitRequestModel.Benefit.BenefitTypeId == 3L)
+                {
+                    SendMailToWhoIsConcern(benefitRequestModel, requestWokflowModel);
+                    int num = SendNotification(benefitRequestModel, requestWokflowModel, "CreateGroup", 0L).Result ? 1 : 0;
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                this._logger.LogError(ex.ToString());
+                return false;
+            }
+        }
+
+        public async Task<bool> AddSameResponseForAllTimingRole(long requestNumber, int status, string message, long responsedBy)
+        {
+            try
+            {
+                List<RequestWokflowModel> requestWorkflow = await GetRequestWorkflow(requestNumber);
+                string roleId = _roleService.GetRoleByName("Timing").Result.Id;
+                Func<RequestWokflowModel, bool> predicate = (Func<RequestWokflowModel, bool>)(w => w.RoleId == roleId && w.RequestStatusId == 1);
+                IEnumerable<RequestWokflowModel> source = requestWorkflow.Where<RequestWokflowModel>(predicate);
+                BenefitRequestModel benefitRequest = _benefitRequestService.GetBenefitRequest(requestNumber);
+                if (source != null)
+                {
+                    foreach (RequestWokflowModel requestWokflowModel in source.ToList<RequestWokflowModel>())
+                    {
+                        requestWokflowModel.RequestStatusId = status != 1 ? 4 : 3;
+                        requestWokflowModel.UpdatedDate = DateTime.Now;
+                        requestWokflowModel.ReplayDate = DateTime.Now;
+                        requestWokflowModel.Notes = message;
+                        requestWokflowModel.WhoResponseId = new long?(responsedBy);
+                        int num1 = UpdateRequestWorkflow(requestWokflowModel).Result ? 1 : 0;
+                        int num2 = SendNotification(benefitRequest, requestWokflowModel, "Take Action", responsedBy).Result ? 1 : 0;
+                    }
+                }
+                return true;
+            }
+            catch (Exception ex)
             {
                 return false;
             }

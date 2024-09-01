@@ -6,6 +6,8 @@ using MoreForYou.Services.Contracts;
 using MoreForYou.Services.Models.MasterModels;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -59,6 +61,14 @@ namespace MoreForYou.Services.Implementation
         public List<RequestDocument> GetAllRequestDocuments()
         {
             throw new NotImplementedException();
+        }
+
+        public RequestDocumentModel GetRequestDocument(long requestId)
+        {
+            var document = _repository.Find(r => r.BenefitRequestId == requestId).FirstOrDefault();
+
+            RequestDocumentModel requestDocumentModel = _mapper.Map<RequestDocumentModel>(document);
+           return requestDocumentModel;
         }
 
         public List<RequestDocumentModel> GetRequestDocuments(long requestId)

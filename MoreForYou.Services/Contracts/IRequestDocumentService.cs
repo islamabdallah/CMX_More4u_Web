@@ -14,5 +14,6 @@ namespace MoreForYou.Services.Contracts
         Task<bool> UpdateRequestDocument(RequestDocumentModel model);
         bool DeleteRequestDocument(int id);
         List<RequestDocumentModel> GetRequestDocuments(long requestId);
+        RequestDocumentModel GetRequestDocument(long requestId);
     }
 }

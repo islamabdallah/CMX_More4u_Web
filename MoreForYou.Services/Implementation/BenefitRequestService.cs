@@ -581,6 +581,9 @@ namespace MoreForYou.Services.Implementation
             }
         }
 
-
+        public Task<List<BenefitRequestModel>> GetAllBenefitRequestsByCountry(string country)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

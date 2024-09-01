@@ -32,6 +32,7 @@ namespace MoreForYou.Services.Contracts
         Task<string> SendReuestToWhoIsConcern(long benefitRequetId, int orderNumber);
         Task<string> UploadedImageAsync(IFormFile ImageName, string path);
         bool SendRequestToHRRole(BenefitRequestModel benefitRequestModel);
+        bool SendRequestToTimingRole(BenefitRequestModel benefitRequestModel);
         Task<string> ConfirmGroupRequest(Request request, string userId, BenefitModel benefitModel);
 
         Task<bool> SendNotification(BenefitRequestModel benefitRequestModel, RequestWokflowModel DBRequestWorkflowModel, string type, long responserId);
@@ -53,6 +54,7 @@ namespace MoreForYou.Services.Contracts
         RequestWokflowModel GetRequestWorkflowById(long requestWorflowId);
 
         Task<bool> AddSameResponseForAllHRRole(long requestNumber, int status, string message, long responsedBy);
+        Task<bool> AddSameResponseForAllTimingRole(long requestNumber, int status, string message, long responsedBy);
 
         Task<string> SaveImage(string strm, string uploadFolder);
 
