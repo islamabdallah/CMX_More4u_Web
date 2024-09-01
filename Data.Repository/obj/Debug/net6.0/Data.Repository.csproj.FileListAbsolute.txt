@@ -34,3 +34,16 @@ D:\projects\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\Data.Repository.dll
 D:\projects\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\refint\Data.Repository.dll
 D:\projects\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\Data.Repository.pdb
 D:\projects\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\ref\Data.Repository.dll
+C:\Cemex_Projects\More4u\CMX_More4u_Web\Data.Repository\bin\Debug\net6.0\Data.Repository.deps.json
+C:\Cemex_Projects\More4u\CMX_More4u_Web\Data.Repository\bin\Debug\net6.0\Data.Repository.dll
+C:\Cemex_Projects\More4u\CMX_More4u_Web\Data.Repository\bin\Debug\net6.0\Data.Repository.pdb
+C:\Cemex_Projects\More4u\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\Data.Repository.csproj.AssemblyReference.cache
+C:\Cemex_Projects\More4u\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\Data.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cemex_Projects\More4u\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\Data.Repository.AssemblyInfoInputs.cache
+C:\Cemex_Projects\More4u\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\Data.Repository.AssemblyInfo.cs
+C:\Cemex_Projects\More4u\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\Data.Repository.csproj.CoreCompileInputs.cache
+C:\Cemex_Projects\More4u\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\Data.Repository.sourcelink.json
+C:\Cemex_Projects\More4u\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\Data.Repository.dll
+C:\Cemex_Projects\More4u\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\refint\Data.Repository.dll
+C:\Cemex_Projects\More4u\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\Data.Repository.pdb
+C:\Cemex_Projects\More4u\CMX_More4u_Web\Data.Repository\obj\Debug\net6.0\ref\Data.Repository.dll
