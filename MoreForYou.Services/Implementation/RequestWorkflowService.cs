@@ -2088,6 +2088,11 @@ namespace MoreForYou.Services.Implementation
             }
         }
 
+        /// <summary>
+        /// Timing Role
+        /// </summary>
+        /// <param name="benefitRequestModel"></param>
+        /// <returns></returns>
         public bool SendRequestToTimingRole(BenefitRequestModel benefitRequestModel)
         {
             try

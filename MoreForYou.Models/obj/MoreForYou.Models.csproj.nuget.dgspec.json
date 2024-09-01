@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj": {}
+    "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj": {}
   },
   "projects": {
-    "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj": {
+    "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj",
+        "projectUniqueName": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj",
         "projectName": "MoreForYou.Models",
-        "projectPath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj",
-        "packagesPath": "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\obj\\",
+        "projectPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj",
+        "packagesPath": "C:\\Users\\imabdallah\\.nuget\\packages\\",
+        "outputPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\E-LMMOUSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\imabdallah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

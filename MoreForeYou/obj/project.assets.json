@@ -9607,19 +9607,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\": {}
+    "C:\\Users\\imabdallah\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\projects\\CMX_More4u_Web\\MoreForeYou\\MoreForYou.csproj",
+      "projectUniqueName": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForeYou\\MoreForYou.csproj",
       "projectName": "MoreForYou",
-      "projectPath": "D:\\projects\\CMX_More4u_Web\\MoreForeYou\\MoreForYou.csproj",
-      "packagesPath": "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\",
-      "outputPath": "D:\\projects\\CMX_More4u_Web\\MoreForeYou\\obj\\",
+      "projectPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForeYou\\MoreForYou.csproj",
+      "packagesPath": "C:\\Users\\imabdallah\\.nuget\\packages\\",
+      "outputPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForeYou\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\E-LMMOUSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\imabdallah\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9633,11 +9633,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\projects\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj": {
-              "projectPath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj"
+            "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj": {
+              "projectPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj"
             },
-            "D:\\projects\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj": {
-              "projectPath": "D:\\projects\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj"
+            "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj": {
+              "projectPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj"
             }
           }
         }
@@ -9722,8 +9722,40 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Azure.Identity' 1.10.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-5mfx-4wcx-rv27",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Azure.Identity' 1.10.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-m5vv-6r4h-3vj9",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Azure.Identity' 1.10.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

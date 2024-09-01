@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\projects\\CMX_More4u_Web\\MoreForeYou\\MoreForYou.csproj": {}
+    "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForeYou\\MoreForYou.csproj": {}
   },
   "projects": {
-    "D:\\projects\\CMX_More4u_Web\\Data.Repository\\Data.Repository.csproj": {
+    "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\Data.Repository\\Data.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\CMX_More4u_Web\\Data.Repository\\Data.Repository.csproj",
+        "projectUniqueName": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\Data.Repository\\Data.Repository.csproj",
         "projectName": "Data.Repository",
-        "projectPath": "D:\\projects\\CMX_More4u_Web\\Data.Repository\\Data.Repository.csproj",
-        "packagesPath": "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\CMX_More4u_Web\\Data.Repository\\obj\\",
+        "projectPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\Data.Repository\\Data.Repository.csproj",
+        "packagesPath": "C:\\Users\\imabdallah\\.nuget\\packages\\",
+        "outputPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\Data.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\E-LMMOUSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\imabdallah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -65,21 +65,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\projects\\CMX_More4u_Web\\MoreForeYou\\MoreForYou.csproj": {
+    "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForeYou\\MoreForYou.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\CMX_More4u_Web\\MoreForeYou\\MoreForYou.csproj",
+        "projectUniqueName": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForeYou\\MoreForYou.csproj",
         "projectName": "MoreForYou",
-        "projectPath": "D:\\projects\\CMX_More4u_Web\\MoreForeYou\\MoreForYou.csproj",
-        "packagesPath": "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\CMX_More4u_Web\\MoreForeYou\\obj\\",
+        "projectPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForeYou\\MoreForYou.csproj",
+        "packagesPath": "C:\\Users\\imabdallah\\.nuget\\packages\\",
+        "outputPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForeYou\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\E-LMMOUSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\imabdallah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,11 +93,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\projects\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj": {
-                "projectPath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj"
+              "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj": {
+                "projectPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj"
               },
-              "D:\\projects\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj": {
-                "projectPath": "D:\\projects\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj"
+              "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj": {
+                "projectPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj"
               }
             }
           }
@@ -182,21 +182,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj": {
+    "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj",
+        "projectUniqueName": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj",
         "projectName": "MoreForYou.Models",
-        "projectPath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj",
-        "packagesPath": "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\obj\\",
+        "projectPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj",
+        "packagesPath": "C:\\Users\\imabdallah\\.nuget\\packages\\",
+        "outputPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\E-LMMOUSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\imabdallah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -251,21 +251,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\projects\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj": {
+    "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj",
+        "projectUniqueName": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj",
         "projectName": "MoreForYou.Services",
-        "projectPath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj",
-        "packagesPath": "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Services\\obj\\",
+        "projectPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Services\\MoreForYou.Services.csproj",
+        "packagesPath": "C:\\Users\\imabdallah\\.nuget\\packages\\",
+        "outputPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Services\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\E-LMMOUSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\imabdallah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -279,11 +279,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\projects\\CMX_More4u_Web\\Data.Repository\\Data.Repository.csproj": {
-                "projectPath": "D:\\projects\\CMX_More4u_Web\\Data.Repository\\Data.Repository.csproj"
+              "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\Data.Repository\\Data.Repository.csproj": {
+                "projectPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\Data.Repository\\Data.Repository.csproj"
               },
-              "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj": {
-                "projectPath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj"
+              "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj": {
+                "projectPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj"
               }
             }
           }
@@ -351,21 +351,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\projects\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj": {
+    "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\projects\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj",
+        "projectUniqueName": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj",
         "projectName": "Repository.EntityFramework",
-        "projectPath": "D:\\projects\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj",
-        "packagesPath": "C:\\Users\\E-LMMOUSA\\.nuget\\packages\\",
-        "outputPath": "D:\\projects\\CMX_More4u_Web\\Repository.EntityFramework\\obj\\",
+        "projectPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\Repository.EntityFramework\\Repository.EntityFramework.csproj",
+        "packagesPath": "C:\\Users\\imabdallah\\.nuget\\packages\\",
+        "outputPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\Repository.EntityFramework\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\E-LMMOUSA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\imabdallah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -379,8 +379,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj": {
-                "projectPath": "D:\\projects\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj"
+              "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj": {
+                "projectPath": "C:\\Cemex_Projects\\More4u\\CMX_More4u_Web\\MoreForYou.Models\\MoreForYou.Models.csproj"
               }
             }
           }
@@ -436,7 +436,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
