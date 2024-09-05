@@ -5,3 +5,10 @@
 /.vs/CMX_More4u_Web/FileContentIndex
 /.vs/MoreForYou/v17
 /.vs/ProjectEvaluation
+/.vs
+/Data.Repository/obj
+/more4UWebAPI/obj
+/MoreForeYou/obj
+/MoreForYou.Models/obj
+/MoreForYou.Services/obj
+/Repository.EntityFramework/obj
