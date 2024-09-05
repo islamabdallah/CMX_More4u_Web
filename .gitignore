@@ -5,3 +5,13 @@
 /.vs/CMX_More4u_Web/FileContentIndex
 /.vs/MoreForYou/v17
 /.vs/ProjectEvaluation
+<<<<<<< HEAD
+=======
+/.vs
+/Data.Repository/obj
+/more4UWebAPI/obj
+/MoreForeYou/obj
+/MoreForYou.Models/obj
+/MoreForYou.Services/obj
+/Repository.EntityFramework/obj
+>>>>>>> 786d8371fb1596735c53b53f9fb760329fd6a336
