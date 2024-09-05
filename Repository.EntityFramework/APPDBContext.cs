@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MoreForYou.Models.Models.MasterModels;
 using MoreForYou.Models.Models.MasterModels.MedicalModels;
+using MoreForYou.Models.Models.MedicalModels;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -57,6 +58,17 @@ namespace Repository.EntityFramework
         public DbSet<MedicalSubCategory> MedicalSubCategories { get; set; }
 
         public DbSet<MedicalDetails> MedicalDetails { get; set; }
+        public DbSet<Relative> Relatives { get; set; }
+
+        public DbSet<MedicalRequestType> MedicalRequestTypes { get; set; }
+
+        public DbSet<MedicalRequest> MedicalRequests { get; set; }
+
+        public DbSet<MedicalRequestLog> MedicalRequestLogs { get; set; }
+
+        public DbSet<MedicalAttachment> MedicalAttachments { get; set; }
+
+        public DbSet<MedicalResponse> MedicalResponses { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

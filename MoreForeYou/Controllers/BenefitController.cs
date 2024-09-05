@@ -70,6 +70,7 @@ namespace MoreForYou.Controllers
         //private readonly IWebHostEnvironment _environment;
         //private readonly IConfiguration _configuration;
         //private readonly IExcelService _excelService;
+
         public BenefitController(IBenefitService BenefitService,
             IBenefitWorkflowService BenefitWorkflowService,
             IUserService userService,
@@ -2459,19 +2460,6 @@ namespace MoreForYou.Controllers
                     }
                     else
                     {
-                        //          List<string> giftt = new List<string>();
-                        //foreach(var gift in gifts)
-                        //          {
-                        //              giftt.Add(gift.UserName);
-                        //          }
-                        //   var giftt = gifts
-                        //    .OrderByDescending(s => s.RequestNumber)
-                        //    .Select(s => new
-                        //    {
-                        //        RequestNumber = s.RequestNumber,
-                        //        UserName = s.UserName
-                        //    }).Distinct()
-                        //.ToList();
                         var giftt = gifts
                             .Select(s => new
                             {
@@ -2509,108 +2497,6 @@ namespace MoreForYou.Controllers
                 return false;
             }
         }
-
-
-        //public async Task<IActionResult> AddEmployee()
-        //{
-        //    try
-        //    {
-        //        return View();
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        return RedirectToAction("ERROR404");
-        //    }
-        //}
-
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public async Task<IActionResult> AddEmployee(IFormFile postedFile)
-        //{
-        //    try
-        //    {
-        //        bool fixResult = false;
-        //        string ExcelConnectionString = this._configuration.GetConnectionString("ExcelCon");
-        //        DataTable dt = null;
-        //        string Email = "";
-        //        string password = "";
-        //        if (postedFile != null)
-        //        {
-        //            //Create a Folder.
-        //            string path = Path.Combine(this._environment.WebRootPath, "Uploads");
-        //            if (!Directory.Exists(path))
-        //            {
-        //                Directory.CreateDirectory(path);
-        //            }
-
-        //            //Save the uploaded Excel file.
-        //            string fileName = Path.GetFileName(postedFile.FileName);
-        //            string filePath = Path.Combine(path, fileName);
-        //            using (FileStream stream = new FileStream(filePath, FileMode.Create))
-        //            {
-        //                postedFile.CopyTo(stream);
-        //            }
-        //            dt = _excelService.ReadExcelData(filePath, ExcelConnectionString);
-        //            Dictionary<long, string> DriverData = new Dictionary<long, string>();
-        //            if (dt != null)
-        //            {
-        //                for (int index = 0; index < dt.Columns.Count; index++)
-        //                {
-        //                    dt.Columns[index].ColumnName = dt.Columns[index].ColumnName.Trim();
-        //                }
-
-        //                //foreach (DataRow row in dt.Rows)
-        //                //{
-        //                //    Email = "Driver" + row["Number"] + "@gmail.com";
-        //                //    password = _driverService.CreateRandomPassword(4);
-
-        //                //    AspNetUser aspNetUser = new AspNetUser { Email = Email, UserName = Email, CreatedDate = DateTime.Now, UpdatedDate = DateTime.Now };
-        //                //    var result = await _userManager.CreateAsync(aspNetUser, password);
-        //                //    if (result.Succeeded)
-        //                //    {
-        //                //        //row["PhoneNumber"] = "0" + row["PhoneNumber"].ToString();
-        //                //        await _userManager.AddToRoleAsync(aspNetUser, "Driver");
-        //                //        DriverModel driverModel = new DriverModel();
-        //                //        driverModel.Id = Convert.ToInt64(row["Number"]);
-        //                //        driverModel.FullName = row["FullName"].ToString();
-        //                //        driverModel.PhoneNumber = "0" + row["PhoneNumber"].ToString();
-        //                //        driverModel.Address = "Assiut";
-        //                //        driverModel.IsDelted = false;
-        //                //        driverModel.IsVisible = true;
-        //                //        driverModel.UpdatedDate = DateTime.Now;
-        //                //        driverModel.CreatedDate = DateTime.Now;
-        //                //        driverModel.UserId = aspNetUser.Id;
-        //                //        var createResult = await _driverService.CreateDriver(driverModel);
-        //                //        if (createResult == true)
-        //                //        {
-        //                //            DriverData.Add(driverModel.Id, password);
-        //                //        }
-        //                //    }
-        //                //    else
-        //                //    {
-        //                //        await _userManager.DeleteAsync(aspNetUser);
-        //                //    }
-        //                //}
-        //            }
-        //            if (DriverData.Count > 0)
-        //            {
-        //                var memoryStream = _excelService.ExportDriversDataToExcel(DriverData);
-        //                return File(memoryStream.ToArray(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "ExportDriverData.xlsx");
-        //            }
-        //        }
-        //        else
-        //        {
-        //            ViewBag.Error = "File Not Uploaded, Please Select Valid File";
-        //            return View();
-        //        }
-        //        return View();
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        return RedirectToAction("ERROR404");
-        //    }
-        //}
-
     }
 
 }

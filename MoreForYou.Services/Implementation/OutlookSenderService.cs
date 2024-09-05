@@ -78,7 +78,11 @@ namespace MoreForYou.Services.Implementation
             //string filePath = "D:/Cemex Project/gitHubProject/Cemex Backulaing/DevArea/Core/CoreServices/MailService/EmailTemplate.html";
 
             string fileName = "EmailBody.html";
-            string path = Path.Combine(@"D:\_cemex\_projects\_AzureMore4U\More4UAzure\MoreForYou.Services\MailTemplate\", fileName);
+            if (model.SendTo != 0)
+            {
+                fileName = "ThankYouMail.html";
+            }
+                string path = Path.Combine(@"D:\_cemex\_projects\_AzureMore4U\More4UAzure\MoreForYou.Services\MailTemplate\", fileName);
             string imagePath = CommanData.Url + CommanData.CardsFolder + model.Benefit.BenefitCard;
 
             using (StreamReader reader = new StreamReader(path))
@@ -94,8 +98,8 @@ namespace MoreForYou.Services.Implementation
             if (model.SendTo != 0)
             {
                 EmployeeModel thankedEmployee = _employeeService.GetEmployee(model.SendTo).Result;
-                body = body.Replace("{GiftData}", "</br><b style='margin-left:30px'><u>Would like to Thank</u></b>" + thankedEmployee.FullName +
-                    "</br><b><u>Employee Number</u></b>" + thankedEmployee.EmployeeNumber);
+                body = body.Replace("{employeeToNumber}", "  " + thankedEmployee.EmployeeNumber.ToString());
+                body = body.Replace("{employeeToName}", "  " + thankedEmployee.FullName.ToString());
             }
             else
             {
