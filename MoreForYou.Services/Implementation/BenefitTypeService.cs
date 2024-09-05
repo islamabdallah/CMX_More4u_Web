@@ -26,6 +26,12 @@ namespace MoreForYou.Services.Implementation
             _mapper = mapper;
         }
 
+        /// <summary>
+        /// Create Benefit
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
+        /// <exception cref="NotImplementedException"></exception>
         public BenefitTypeModel CreateBenefitType(BenefitTypeModel model)
         {
             throw new NotImplementedException();
